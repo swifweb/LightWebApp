@@ -1,0 +1,16 @@
+{
+    "lldb.library": "/Library/Developer/Toolchains/swift-wasm-DEVELOPMENT-SNAPSHOT-2024-06-09-a.xctoolchain/System/Library/PrivateFrameworks/LLDB.framework/Versions/A/LLDB",
+    "lldb.launch.expressions": "native",
+    "swift.path": "/Library/Developer/Toolchains/swift-wasm-DEVELOPMENT-SNAPSHOT-2024-06-09-a.xctoolchain/usr/bin",
+    "files.associations": {
+        "unistd.h": "c"
+    },
+    "swift.buildArguments": [
+        "-c", "release",
+        "--triple", "wasm32-unknown-none-wasm",
+        "-Xcc", "-D__Embedded"
+    ],
+    "swift.coverage.displayReportAfterRun": false,
+    "swift.coverage.alwaysShowStatusItem": false,
+    "swift.sourcekit-lsp.serverPath": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/sourcekit-lsp"
+}

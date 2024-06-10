@@ -1,0 +1,59 @@
+{
+    "configurations": [
+        {
+            "cwd": "${workspaceFolder:LightWebApp}/Experiments",
+            "command": "cp ../.build/release/LightWebApp.wasm ./app.wasm &&  python3 -m http.server",
+            "name": "Run hosting",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:LightWebApp}",
+            "name": "Debug LightWebApp",
+            "program": "${workspaceFolder:LightWebApp}/.build/debug/LightWebApp",
+            "preLaunchTask": "swift: Build Debug LightWebApp"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:LightWebApp}",
+            "name": "Release LightWebApp",
+            "program": "${workspaceFolder:LightWebApp}/.build/release/LightWebApp",
+            "preLaunchTask": "swift: Build Release LightWebApp"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:LightWebApp}",
+            "name": "Debug LightWebApp",
+            "program": "${workspaceFolder:LightWebApp}/.build/debug/LightWebApp",
+            "preLaunchTask": "swift: Build Debug LightWebApp"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:LightWebApp}",
+            "name": "Release LightWebApp",
+            "program": "${workspaceFolder:LightWebApp}/.build/release/LightWebApp",
+            "preLaunchTask": "swift: Build Release LightWebApp"
+        }
+    ]
+}
