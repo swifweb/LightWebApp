@@ -1,7 +1,7 @@
 {
-    "lldb.library": "/Library/Developer/Toolchains/swift-wasm-DEVELOPMENT-SNAPSHOT-2024-06-09-a.xctoolchain/System/Library/PrivateFrameworks/LLDB.framework/Versions/A/LLDB",
+    "lldb.library": "/Library/Developer/Toolchains/swift-wasm-DEVELOPMENT-SNAPSHOT-2024-06-12-a.xctoolchain/System/Library/PrivateFrameworks/LLDB.framework/Versions/A/LLDB",
     "lldb.launch.expressions": "native",
-    "swift.path": "/Library/Developer/Toolchains/swift-wasm-DEVELOPMENT-SNAPSHOT-2024-06-09-a.xctoolchain/usr/bin",
+    "swift.path": "/Library/Developer/Toolchains/swift-wasm-DEVELOPMENT-SNAPSHOT-2024-06-12-a.xctoolchain/usr/bin",
     "files.associations": {
         "unistd.h": "c"
     },
