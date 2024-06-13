@@ -6,6 +6,13 @@ func main() {
     var helloText = getElementById("helloText")
     helloText?[dynamicMember: "innerHTML"] = String16("Embedded Swift App").jsValue
     jsprint("Hello world")
+   if let btn = getElementById("btn") {
+       let clickClosure = JSClosure({ _ in
+           jsprint("onclick ✅✅✅")
+           return JSValue.undefined
+       })
+       btn[dynamicMember: "addEventListener"].function?.callAsFunction(this: btn.object!, String16("click").jsValue, clickClosure.jsValue)
+   }
 }
 
 // Shortcut to `console.log`
