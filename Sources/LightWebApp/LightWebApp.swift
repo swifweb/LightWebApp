@@ -4,7 +4,7 @@ import String16
 @_expose(wasm, "main")
 func main() {
     var helloText = getElementById("helloText")
-    helloText?[dynamicMember: "innerHTML"] = String16("Embedded Swift App").jsValue
+    helloText?.innerHTML = String16("Embedded Swift App").jsValue
     jsprint("Hello world")
     if let btn = getElementById("btn") {
         let clickClosure = JSClosure({ _ in
