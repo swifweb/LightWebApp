@@ -28,7 +28,7 @@ func getElementById(_ id: String16) -> JSValue? {
 }
 
 // The following code is a hack to make JavaScriptKit compile
-// since in the current `swift-wasm-DEVELOPMENT-SNAPSHOT-2024-06-09`
+// since in the current `swift-wasm-DEVELOPMENT-SNAPSHOT-2024-06-13`
 // snapshot _cdecl won't be taken from a dependency
 
 @_cdecl("_call_host_function_impl")
